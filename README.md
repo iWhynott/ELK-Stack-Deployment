@@ -106,7 +106,7 @@ A series of playbooks were used to configure and rollout the ELK machine. The fo
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Running docker ps](Diagrams/Docker PS output in ELKVm.png)
+![Running docker ps](Diagrams/Docker-PS-output.png)
 
 ### Target Machines & Beats
 

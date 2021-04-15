@@ -181,4 +181,6 @@ output.elasticsearch:
 - By configuring the roles files and the host file this way, you will ensure that the ELK server is installed properly and that the metricbeat/filebeat are collecting data from the correct servers, outputting to Kibana dashboard. 
 - Run the playbooks, and navigate to [ELKVM Public IP]:5601/app/kibana# to check that the installation worked as expected.
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+```
+git clone https://github.com/iWhynott/ELK-Stack-Deployment
+```

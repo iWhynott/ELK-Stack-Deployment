@@ -13,21 +13,21 @@
 
     - Command to inspect permissions:
       - `ls -l /etc/gshadow`
-      - ![image-20210125170611535](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125170611535.png)
+      - ![image-20210125170611535](Images/image-20210125170611535.png)
     - Command to set permissions (if needed):
 
 3. Permissions on `/etc/group` should allow `root` read and write access, and allow everyone else read access only.
 
     - Command to inspect permissions:
       - `ls -l /etc/group`
-      - ![image-20210125170628443](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125170628443.png)
+      - ![image-20210125170628443](Images/image-20210125170628443.png)
     - Command to set permissions (if needed):
 
 4. Permissions on `/etc/passwd` should allow `root` read and write access, and allow everyone else read access only.
 
     - Command to inspect permissions:
   - `ls -l /etc/passwd`
-      - ![image-20210125170640658](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125170640658.png)
+      - ![image-20210125170640658](Images/image-20210125170640658.png)
     - Command to set permissions (if needed):
 
 ### Step 2: Create User Accounts
@@ -36,21 +36,21 @@
 
     - Command to add each user account (include all five users):
       - `sudo useradd -g engineers sam`
-      - ![image-20210125171537947](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125171537947.png)
+      - ![image-20210125171537947](Images/image-20210125171537947.png)
       - `sudo useradd -g engineers joe`
-      - ![image-20210125171547452](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125171547452.png)
+      - ![image-20210125171547452](Images/image-20210125171547452.png)
       - `sudo useradd -g engineers amy`
-      - ![image-20210125171558413](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125171558413.png)
+      - ![image-20210125171558413](Images/image-20210125171558413.png)
       - `sudo useradd -g engineers sara`
-      - ![image-20210125171608909](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125171608909.png)
+      - ![image-20210125171608909](Images/image-20210125171608909.png)
       - `sudo useradd -g sudo admin`
-      - ![image-20210125171618847](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125171618847.png)
+      - ![image-20210125171618847](Images/image-20210125171618847.png)
 
 2. Ensure that only the `admin` has general sudo access.
 
     - Command to add `admin` to the `sudo` group:
       - `id -gn admin`
-      - ![image-20210125171912364](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125171912364.png)
+      - ![image-20210125171912364](Images/image-20210125171912364.png)
 
 ### Step 3: Create User Group and Collaborative Folder
 
@@ -58,7 +58,7 @@
 
     - Command to add group:
       - `sudo groupadd engineers`
-      - ![image-20210125171952886](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125171952886.png)
+      - ![image-20210125171952886](Images/image-20210125171952886.png)
 
 2. Add users `sam`, `joe`, `amy`, and `sara` to the managed group.
 
@@ -79,7 +79,7 @@
 
     - Command to change ownership of engineer's shared folder to engineer group:
       - `sudo chown :engineers /home/engineers`
-      - ![image-20210125174836557](C:\Users\Isaac Whynott\AppData\Roaming\Typora\typora-user-images\image-20210125174836557.png)
+      - ![image-20210125174836557](Images/image-20210125174836557.png)
 
 ### Step 4: Lynis Auditing
 

@@ -101,13 +101,3 @@
       - Check vulnerable packages in Ports and packages
       - **Lynis version should be updated**
 
-
-### Bonus
-1. Command to install chkrootkit:
-
-2. Command to see documentation and instructions:
-
-3. Command to run expert mode:
-
-4. Provide a report from the chrootkit output on what can be done to harden the system.
-    - Screenshot of end of sample output:

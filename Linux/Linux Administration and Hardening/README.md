@@ -6,7 +6,7 @@
 
     - Command to inspect permissions: 
       - `ls -l /etc/shadow`
-      - ![image-20210125170546094](Images\image-20210125170546094.png)
+      - ![image-20210125170546094](Images/image-20210125170546094.png)
     - Command to set permissions (if needed):
 
 2. Permissions on `/etc/gshadow` should allow only `root` read and write access.

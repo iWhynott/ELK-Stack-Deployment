@@ -1,4 +1,4 @@
-## Week 4 Homework Submission File: Linux Systems Administration
+## Linux Systems Administration
 
 ### Step 1: Ensure/Double Check Permissions on Sensitive Files
 
@@ -111,6 +111,3 @@
 
 4. Provide a report from the chrootkit output on what can be done to harden the system.
     - Screenshot of end of sample output:
-
----
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
